@@ -13,12 +13,12 @@ db = DataBase("stats.txt")
 win = pygame.display.set_mode((540,600))
 pygame.display.set_caption('Sudoku v1.0')
 black = (0,0,0)
-white = (240,235,235)
-red = (240,5,5)
-yellow = (185,195,2)
-green = (35,180,70)
-light_green = (10,245,5)
-blue = (5,10,235)
+white = (255,255,255)
+red = (255,0,0)
+yellow = (200,200,0)
+green = (34,177,76)
+light_green = (0,255,0)
+blue = (0,0,255)
 
 
 
