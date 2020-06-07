@@ -40,9 +40,9 @@ def statsScreen(win,db):
 
         win.fill(white)
         time = format_time(gameData[3])
-        message_to_screen(f"Game Satrted     {gameData[0]}", black, 40, 150, 150, win)
-        message_to_screen(f"Game Won          {gameData[1]}", black, 40, 150, 200, win)
-        message_to_screen(f"Game Lose         {gameData[2]}", black, 40, 150, 250, win)
+        message_to_screen(f"Games Started     {gameData[0]}", black, 40, 150, 150, win)
+        message_to_screen(f"Games Won          {gameData[1]}", black, 40, 150, 200, win)
+        message_to_screen(f"Games Lost         {gameData[2]}", black, 40, 150, 250, win)
         message_to_screen(f"Best Time          {time}", black, 40, 150, 300, win)
 
         pygame.draw.rect(win,black,(10, 10,60,20))
